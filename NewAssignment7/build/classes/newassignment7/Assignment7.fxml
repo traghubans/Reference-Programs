@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newassignment7.Assignment7Controller">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <HBox layoutY="49.0" prefHeight="28.0" prefWidth="300.0" spacing="80.0">
+         <children>
+            <TextField fx:id="SumText" prefHeight="25.0" prefWidth="147.0">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="SumButton" mnemonicParsing="false" onAction="#didClickSumButton" prefHeight="25.0" prefWidth="47.0" text="Sum" />
+         </children>
+      </HBox>
+      <HBox layoutY="86.0" prefHeight="28.0" prefWidth="300.0" spacing="80.0">
+         <children>
+            <TextField fx:id="AddOneText" onAction="#didClickAddOneButton" prefHeight="25.0" prefWidth="147.0">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="Add1Button" mnemonicParsing="false" onAction="#didClickAddOneButton" text="Add 1" />
+         </children>
+      </HBox>
+      <Button fx:id="CloseButton" layoutX="248.0" layoutY="161.0" mnemonicParsing="false" onAction="#didClickCloseButton" text="Close" />
+      <Button fx:id="ResetButton" layoutX="177.0" layoutY="161.0" mnemonicParsing="false" onAction="#didClickAddOneButton" text="Reset" />
+    </children>
+</AnchorPane>
