@@ -16,6 +16,9 @@ Assignment 5: Manipulation of Grid features, as well as mouse, clicked functions
 Assignment 6: Continuation of parsing method in Assignment 1, but implementing JavaFX to represent the parse
 
 
+Assignment 7: Using JavaFX GUI to demonstrate background threading
+
+
 Assignment 8: Linked List sorting methods and JavaFX GUI implementation
 
 Credit to Professor Nesilisah Torosdalgli for creating and assigning these assignments
